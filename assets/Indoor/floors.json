@@ -1,0 +1,9 @@
+[
+  {
+    "id": 0,
+    "name": "First Floor",
+    "shortName": "1F",
+    "description": "Main shopping area with various stores and restaurants",
+    "svgPath": "assets/Indoor/MapSVG.svg"
+  }
+]

@@ -1,0 +1,121 @@
+name: delta_n
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.7.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  intl: ^0.20.2
+  geolocator: ^12.0.0
+  flutter_map: 6.2.1
+  flutter_map_marker_popup: ^6.1.2  # Downgraded to match flutter_map
+  latlong2: ^0.9.1
+  flutter_map_geojson: ^1.0.2
+  webview_flutter: ^4.9.0
+  font_awesome_flutter: ^10.7.0
+  fluttertoast: ^8.2.8
+  vector_math: ^2.1.4
+  collection: ^1.18.0
+  image_picker: ^1.1.2
+  shared_preferences: ^2.3.0
+  dijkstra: ^0.0.4
+  provider: ^6.1.2
+  http: ^1.2.2
+  url_launcher: ^6.3.1
+  flutter_map_cancellable_tile_provider: ^2.0.0
+  flutter_svg: ^2.0.10+1
+  flutter_dotenv: ^5.1.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+
+    # APP_IMG
+    - assets/images/location1.png
+    - assets/images/delta2.jpg
+    - assets/images/location8.gif
+    - assets/images/location10.gif
+    - assets/images/navigation_1.gif
+    - assets/images/arrow.gif
+    - assets/images/nav1.gif
+    - assets/images/about.png
+    - assets/images/Support.jpg
+    - assets/images/locationF.gif
+    - assets/images/location7.gif
+    - assets/images/DeltaLogo.png
+    - assets/images/Robot.gif
+    - assets/images/74-navigation.gif
+    - assets/images/location4.png
+    - assets/images/mobileNav.gif
+    - assets/images/1.jpg
+    - assets/images/ARiCONn.gif
+    - assets/images/CallCenter.gif
+    - assets/images/Contact2.gif
+    - assets/images/Untitledesign.jpg
+    - assets/images/pattern.png
+    - assets/images/indoor.png
+
+    # Slides on the topBar Of HomeScreen
+    - assets/images/slide1.jpg
+    - assets/images/slide2.jpg
+    - assets/images/slide3.jpeg
+
+    # Team_IMG
+    - assets/images/حنين رضا .jpg
+    - assets/images/أروى عطية.jpg
+    - assets/images/أحمد عبد السلام.jpg
+    - assets/images/عبد الله عادل.jpg
+    - assets/images/باسل درويش.jpg
+    - assets/images/أحمد سمير.jpg
+    
+    # Icons
+    - assets/Map/MapIMG/desert.png
+    - assets/Map/MapIMG/hotel.png
+    - assets/Map/MapIMG/graduation.png
+    - assets/Map/MapIMG/mosque.png
+    - assets/Map/MapIMG/restaurant.png
+    - assets/Map/MapIMG/leaf.png
+    - assets/Map/MapIMG/hospital.png
+    - assets/Map/MapIMG/pool.png
+
+    # Faculty_Images
+    - assets/Map/MapIMG/Faculty of Artificial Intelligence.jpg
+    - assets/Map/MapIMG/Faculty of Business.jpg
+    - assets/Map/MapIMG/Faculty of Engineering.jpg
+    - assets/Map/MapIMG/Faculty of Medicine.jpg
+    - assets/Map/MapIMG/Faculty of Oral & Dental Medicine.jpg
+    - assets/Map/MapIMG/Faculty of Pharmacy.jpg
+    - assets/Map/MapIMG/Faculty of Physical Therapy.jpg
+    - assets/Map/MapIMG/law_energy_building.jpg
+    
+    # Map_Files
+    - assets/Map/MapFiles/delta_university_paths.geojson
+    - assets/Map/MapFiles/map.geojson
+
+    #Indoor
+    - assets/Indoor/MapSVG.svg
+    - assets/Indoor/roomData.json
+    - assets/Indoor/floors.json
+    - assets/Indoor/LocationDetails.json
+    - assets/Indoor/4th.json
+
+  fonts:
+    - family: Zain
+      fonts:
+        - asset: assets/fonts/Zain-Bold.ttf
+          weight: 700
+    - family: Knewave
+      fonts:
+        - asset: assets/fonts/Knewave-Regular.ttf

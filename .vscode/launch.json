@@ -1,0 +1,23 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Dart & Flutter",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/screens/main.dart"
+        },
+        {
+            "name": "delta_n (profile mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "delta_n (release mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        }
+    ]
+}
